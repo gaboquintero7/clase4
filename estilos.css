@@ -1,4 +1,23 @@
-html{
-	margin:0px;
-	padding: 0px;
+body{
+	background-image: url(fondo.jpg);
+}
+
+
+
+
+
+.mundo{
+	width: 189px;
+    height: 177px;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    background-image: url(tierra.jpg);
+    border-radius: 50%;
+    background-position: left;
+    transition: rotate(300deg);
+}
+
+.mundo:hover{
+	transition: transform(360deg);
 }
